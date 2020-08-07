@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hide {
+    display: none;
+}
+.carGame{
+width:100%;
+ height: 100vh;   
+ background-image: url(blk.jpg);
+ background-repeat: no-repeat;
+    background-size:cover;
+   background-position: center;
+    background-size: 100% 100%;
+  
+    
+}
+
+
+
+
+
+
+.car,
+.enemy {
+    width: 50px;
+    height: 100px;   
+    background:goldenrod;
+    position: absolute;
+    bottom: 120px;
+    background-image: url(last2.png);
+    background-repeat: no-repeat;
+   border-top-left-radius:20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 9px;
+     border-bottom-left-radius: 10px;
+    background-size: 100% 100%;
+     box-shadow: 10px 20px 10px rgba(9,0,0,0.5);
+
+
+}
+
+.gameArea {
+    width: 400px;
+    height: 100vh;
+    background: #2d3436;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    border-right: 7px dashed blue;
+    border-left: 7px dashed blue;
+    box-shadow: 0px 1px 5px red,
+        0px 10px 10px blue
+,
+        5px 1px 3px Darkblue,
+        1px 20px 300px orange,
+         -810px 20px 0px  rgba(0, 1, 1, 0.1);
+    /* box-shadow: 10px 20px 10px rgba(9,0,0,0.5);*/
+
+}
+
+.lines {
+    width: 10px;
+    height: 100px;
+    background: yellow;
+    position: absolute;
+    margin-left: 195px;
+
+}
+
+.score {
+    transform: translateX(20%);
+    position: absolute;
+    letter-spacing: 1px;
+    top: 180px;
+    left: 40px;
+    width: 200px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: cursive;
+    color: fuchsia;
+    font-family: fantasy;
+    font-size: 50px;
+   text-shadow: 0 5px 5px blue;
+
+}
+.highScore{
+    transform: translateX(1050px);
+    letter-spacing: 1px;
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    /*background:aqua;*/
+   width: 200px;
+    line-height: 70px;
+    text-align: center;
+    font-family: cursive;
+    text-transform: uppercase;
+    color:fuchsia;
+    font-family: fantasy;
+    font-size: 50px;
+  text-shadow: 0 5px 5px blue;
+
+
+}
+.startScreen {
+    position: absolute;
+    background-color: #ee5293;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 1;
+    text-align: center;
+    border: 1px solid #ff6b6b;
+    padding: 15px;
+    margin: auto;
+    width: 50%;
+    font-family: cursive;
+    letter-spacing: 5;
+    font-size: 20px;
+    word-spacing: 3;
+    line-height: 30px;
+    text-transform: uppercase;
+    border: 5px solid red;
+    border-radius: 50px;
+    
+
+}
+.startScreen:hover,.startScreen:active,.startScreen:focus{
+   
+    width:50%;
+   padding:30px ;
+    color: gold;
+    letter-spacing: 10;
+    line-height: 40px;
+    text-align: center;
+     box-shadow: 5px 5px 5px aqua;
+    border: 5px solid red;
+
+}
+.score:hover,.highScore:hover{
+    font-family: fantasy;
+    font-size: 55px;
+  text-shadow: 6px 10px 10px blue;
+}
