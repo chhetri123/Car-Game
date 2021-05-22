@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <!-- <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
     <title>Car Game</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-
-    <div class="carGame">
-     
+  <body>
+    <h1>Welcome to next level</h1>
+    <div class="container">
+      <div class="carGame">
         <div class="score"></div>
         <div class="highScore"></div>
         <div class="startScreen">
-            <p>Press here to start game.<br>
-                Arrow keys to move.<br>
-                If you hit another car you will lose. </p>
+          <p>
+            Press here to start game.<br />
+            Arrow keys to move.<br />
+            If you hit another car you will lose.
+          </p>
         </div>
         <div class="gameArea"></div>
+      </div>
     </div>
-
+ <div class="button">
+      <div class="btn">
+        <button data-value="1" class="btn__up">&uparrow;</button>
+        <button data-value="2" class="btn__down">&downarrow;</button>
+        <button data-value="3" class="btn__right">&rightarrow;</button>
+        <button data-value="4" class="btn__left">&leftarrow;</button>
+      </div>
+    </div>
     <script src="java.js"></script>
-</body>
-
+  </body>
 </html>
